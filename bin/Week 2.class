@@ -1,7 +1,0 @@
-public Crop(String name, double pricePerKg,
-            double quantityInStock) {
-    this.name = name;
-    this.pricePerKg = pricePerKg;
-    this.quantityInStock = quantityInStock;
-    this.quantitySold = 0;
-}
