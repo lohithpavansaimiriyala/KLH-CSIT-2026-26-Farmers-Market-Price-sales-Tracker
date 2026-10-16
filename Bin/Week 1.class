@@ -1,0 +1,11 @@
+Java 
+
+class Appointment {
+    private String patientName ;
+    Private String patientId;
+    private String doctorName;
+    Private String appointmentDate;
+    Private String appointmentTime;
+    Private String appointmentStatus;
+
+}
