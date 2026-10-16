@@ -3,7 +3,7 @@ Name - Lohith  Roll no - 2620040023 , Name - Darshan , Roll no - 2620090099 , Su
 
 Title - Farmer's Market Price & Sales Tracker
 
-Abstract - ## Abstract
+Abstract - 
 
 The Farmers’ Market Price & Sales Tracker is a digital system designed to help farmers manage agricultural product prices, sales, and stock efficiently. Traditional markets often face problems such as price fluctuations, poor record keeping, and difficulty comparing market prices.
 The proposed system provides a centralized platform to record product details, quantities, prices, sales transactions, and available stock. It automatically calculates total sales and generates daily, weekly, and monthly reports. Price comparisons and graphical charts help users understand market trends and identify profitable selling opportunities.
