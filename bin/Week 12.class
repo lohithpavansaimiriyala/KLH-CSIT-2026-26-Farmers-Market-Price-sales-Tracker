@@ -1,0 +1,30 @@
+private static Crop findCrop(String name) {
+    for (Crop crop : crops) {
+        if (crop.getName().equalsIgnoreCase(name)) {
+            return crop;
+        }
+    }
+    return null;
+}
+
+private static int getIntInput() {
+    while (!scanner.hasNextInt()) {
+        System.out.println("Enter a valid number:");
+        scanner.next();
+    }
+
+    int value = scanner.nextInt();
+    scanner.nextLine();
+    return value;
+}
+
+private static double getDoubleInput() {
+    while (!scanner.hasNextDouble()) {
+        System.out.println("Enter a valid decimal number:");
+        scanner.next();
+    }
+
+    double value = scanner.nextDouble();
+    scanner.nextLine();
+    return value;
+}

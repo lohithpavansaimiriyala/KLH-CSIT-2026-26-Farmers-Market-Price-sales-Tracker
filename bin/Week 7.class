@@ -1,0 +1,17 @@
+while (!exit) {
+    printMenu();
+
+    System.out.print("Select an option (1-6): ");
+    int choice = getIntInput();
+
+    switch (choice) {
+        case 1: addCrop(); break;
+        case 2: updateMarketPrice(); break;
+        case 3: recordSale(); break;
+        case 4: viewAllRecords(); break;
+        case 5: calculateTotalMarketRevenue(); break;
+        case 6: exit = true; break;
+        default:
+            System.out.println("Invalid option.");
+    }
+}

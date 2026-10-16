@@ -1,0 +1,15 @@
+public boolean recordSale(double amount) {
+    if (amount <= 0) {
+        System.out.println("Invalid quantity!");
+        return false;
+    }
+
+    if (amount > quantityInStock) {
+        System.out.println("Not enough stock available!");
+        return false;
+    }
+
+    this.quantitySold += amount;
+    this.quantityInStock -= amount;
+    return true;
+}

@@ -1,0 +1,11 @@
+public double getTotalSaleAmount() {
+    return quantitySold * pricePerKg;
+}
+
+public void displayDetails() {
+    System.out.println("Crop Name : " + name);
+    System.out.println("Market Price : ₹" + pricePerKg);
+    System.out.println("Current Stock : " + quantityInStock);
+    System.out.println("Quantity Sold : " + quantitySold);
+    System.out.println("Total Sales : ₹" + getTotalSaleAmount());
+}
